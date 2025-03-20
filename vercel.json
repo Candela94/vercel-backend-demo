@@ -7,10 +7,10 @@
         },
         {
             "src": "public/**",
-            "use": "vercel@static"
+            "use": "@vercel/static"
         }
     ],
-    
+
     "rewrites": [
 
         {"source":"/uploads/(.*)", "destination":"/public/uploads/$1"},
