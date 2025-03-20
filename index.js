@@ -1,6 +1,7 @@
 
 import express from 'express';
 import  Router  from 'express';
+import cors from 'cors';
 
 //------ config.js ----------
 import dotenv from 'dotenv';
@@ -16,7 +17,7 @@ const app = express()
 //Middlewares
 app.use(express.json()) //Parse procesa el json body para leer con req body
 app.use(express.urlencoded({extended: false})) //leer datos de url encoded con req.body
-
+app.use(cors())
 
 
 
