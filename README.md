@@ -15,3 +15,4 @@ Pasos a seguir:
    
 2. Contenido estático (carpeta public)
 
+el archivo vercel.json es 
